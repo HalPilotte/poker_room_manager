@@ -9,12 +9,13 @@ class Header extends React.Component {
     };
   }
   render() {
-    return (
+    return [
       <header>
         <img src= {this.state.url} alt="Palace Logo" />
         <h1>High Hand</h1>
-      </header>
-    );
+      </header>,
+      <hr/>
+    ];
   }
 };
 
