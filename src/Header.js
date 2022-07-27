@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './palace_logo.png';
+import logo from './resources/palace_logo.png';
 
 class Header extends React.Component {
   constructor(props) {

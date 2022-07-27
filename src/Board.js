@@ -1,5 +1,4 @@
 import React from 'react';
-import card from './deuce_of_clubs.png';
 
 class Board extends React.Component {
   constructor(props) {
@@ -11,9 +10,7 @@ class Board extends React.Component {
   render() {
     return (
     <section id='board'>
-      <div className='card'>
-        <img src={card} alt="card" />
-      </div>
+      <div className='card'>hello</div>
       <div className='card'>hello</div>
       <div className='card'>hello</div>
       <div className='card'>hello</div>
